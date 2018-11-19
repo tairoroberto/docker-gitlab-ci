@@ -14,9 +14,3 @@ RUN apt-get update -q  && \
 
 # Expose web & ssh
 EXPOSE 443 80 22
-
-# Define data volumes
-VOLUME ["/etc/gitlab", "/var/opt/gitlab", "/var/log/gitlab"]
-
-# Wrapper to handle signal, trigger runit and reconfigure GitLab
-CMD ["/usr/local/bin/wrapper"]
