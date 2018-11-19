@@ -34,3 +34,20 @@ MAINTAINER Tairo Roberto <tairoroberto@gmail.com>
 #    extra_hosts = ["gitlab.docker:_ip_do_docker_host_"]
 #  [runners.cache]
 
+
+
+## HOOK commit message
+#while read line; do
+#    if [ ${#line} -le 25 ]; then
+#        echo >&2 Mensagem de commit deve conter 15 ou mais caracteres.
+#        exit 1
+#    fi
+#done < "${1}"
+
+
+#test "" != "$(egrep '[#]\b[a-zA-Z]{2,}-[1-9][0-9]*\b[#]' "$1")" || {
+#    echo >&2 "A mensagem do commit deve conter o código da atividade do JIRA".
+#  echo >&2 "Ex: \n#BL-1234# mensagem do commit".
+#  exit 1
+#}
+
