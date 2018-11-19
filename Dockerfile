@@ -33,3 +33,4 @@ MAINTAINER Tairo Roberto <tairoroberto@gmail.com>
 #    shm_size = 0
 #    extra_hosts = ["gitlab.docker:_ip_do_docker_host_"]
 #  [runners.cache]
+
