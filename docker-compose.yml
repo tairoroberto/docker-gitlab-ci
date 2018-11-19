@@ -2,7 +2,7 @@ version: '3'
 services:
  Gitlab_CI:
   container_name: Gitlab_CI
-  image: 'gitlab/gitlab-ce'
+  image: 'tairoroberto/gitlab-ce'
   networks:
    - 'DockerLAN'
   restart: always
