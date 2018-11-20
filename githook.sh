@@ -6,6 +6,7 @@
 
         rm -rf .git/hooks/commit-msg
         touch .git/hooks/commit-msg
+        chmod +x .git/hooks/commit-msg
 
         echo "#!/bin/sh " >> .git/hooks/commit-msg
 
